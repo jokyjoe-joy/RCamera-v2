@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "RCamera Mobile",
+    "slug": "rcamera-mobile",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "checkAutomatically": "ON_ERROR_RECOVERY"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptiveNew.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.rcamera.rcamera"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "updateInformation": "Frissítések:\n-Nyílt-forráskódra váltás."
+    }
+  }
+}
